@@ -1,0 +1,12 @@
+enum IsDir{
+    DIRECTORY = 0;
+    NORMAL_FILE = 1;
+}
+message Node{
+    required string path = 1;
+    required IsDir isdir = 2;
+}
+
+message NodeList{
+    repeated Node paths = 1;
+}
