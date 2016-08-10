@@ -41,4 +41,9 @@ public class NodeDirectory implements NodePath {
         byte[] buf = list.toByteArray();
         return buf;
     }
+
+    @Override
+    public String toString() {
+        return "{"+path+" , "+isDir()+"}";
+    }
 }

@@ -30,4 +30,8 @@ public class NodeFile implements NodePath {
         byte[] buf = file.toByteArray();
         return buf;
     }
+    @Override
+    public String toString() {
+        return "{"+path+" , "+isDir()+"}";
+    }
 }

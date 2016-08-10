@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="082c1545-ae08-4eb5-89fa-5b83042152ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_4_8_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileStatus.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodePath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/proto/FileSystemProtocol.proto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Sample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestFileSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/TestProto.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/statenode/FileSystem/FileNameSystem.class" afterPath="$PROJECT_DIR$/target/classes/org/statenode/FileSystem/FileNameSystem.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java" afterPath="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java" />
     </list>
     <ignored path="statenode.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,18 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Sample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileSystemProtocol.proto" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/proto/FileSystemProtocol.proto">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,28 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodeFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileNameSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+            <state relative-caret-position="171">
+              <caret line="416" column="43" selection-start-line="416" selection-start-column="43" selection-end-line="416" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,12 +77,14 @@
       <file leaf-file-name="NodeDirectory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+            <state relative-caret-position="511">
+              <caret line="47" column="5" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
                 <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1470#1471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -186,9 +148,9 @@
         <option value="$PROJECT_DIR$/src/main/proto/StateNode.proto" />
         <option value="$PROJECT_DIR$/src/main/proto/FileSystemProtocol.proto" />
         <option value="$PROJECT_DIR$/src/main/java/org/statenode/protocols/FileSystemProtocol.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestProto.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java" />
       </list>
     </option>
@@ -805,7 +767,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,7 +777,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39955848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4812362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -862,7 +824,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java</url>
+          <line>292</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java</url>
+          <line>233</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -876,7 +852,7 @@
         <state relative-caret-position="1564">
           <caret line="98" column="60" selection-start-line="98" selection-start-column="60" selection-end-line="98" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1359,43 +1335,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodePath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/FileSystemProtocol.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Sample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="149" column="39" selection-start-line="149" selection-start-column="39" selection-end-line="149" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1406,18 +1351,6 @@
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1456,10 +1389,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/FileSystemProtocol.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="47" column="5" selection-start-line="44" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1470#1471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodeFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/NodePath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/statenode/FileSystem/FileNameSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="266" column="8" selection-start-line="266" selection-start-column="8" selection-end-line="266" selection-end-column="8" />
+        <state relative-caret-position="171">
+          <caret line="416" column="43" selection-start-line="416" selection-start-column="43" selection-end-line="416" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
