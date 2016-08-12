@@ -212,7 +212,7 @@ public class FileNameSystem {
         dst = resolvePath(dst);
 
         String srcParentDir = src.substring(0,src.lastIndexOf("/")+1);
-        String dstParentDir = src.substring(0,dst.lastIndexOf("/")+1);
+        String dstParentDir = dst.substring(0,dst.lastIndexOf("/")+1);
         if(isDir){
             src = src+"/";
             dst = dst+"/";
@@ -420,6 +420,7 @@ public class FileNameSystem {
         System.out.println(paths);
         fs.modifyDirectory("/DIR_a/","/DIR_A");
         fs.modifyFile("/FILE_a","/FILE_A");
+        fs.modifyFile("/FILE_A","/DIR_A/FILE_A");
         List<NodePath> nodes = fs.searchDirectory("/");
         for(NodePath node:nodes){
             System.out.println(node.getPath()+" isDir:"+node.isDir());
@@ -427,7 +428,7 @@ public class FileNameSystem {
 
         paths = fs.searchDirectory("/DIR_A");
         System.out.println(paths);
-        fs.searchFile("/FILE_A");
+        fs.searchFile("/DIR_A/FILE_A");
 
         fs.printAll();
     }
